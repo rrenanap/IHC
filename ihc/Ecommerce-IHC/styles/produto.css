@@ -1,0 +1,194 @@
+body {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgba(29, 151, 145, 0.678);
+  width: 100%;
+  height: 80px;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.logo {
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 60px;
+  font-size: 20px;
+}
+
+.escolha_titulo, .memoria_titulo, .cor_titulo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.escolha_titulo h1, .memoria_titulo h1, .cor_titulo h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.escolha_titulo h2, .memoria_titulo h2, .cor_titulo h2 {
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: normal;
+}
+.escolha_imagem {
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 30px;
+}
+.imagem_produto img {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.memoria_texto{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.memoria_texto input{
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    text-align: center;
+}
+.cor_escolha, .tamanho_escolha, .formato_escolha, .nome_memoria_escolha{
+    font-size: 10px;
+    font-weight: 400;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px 30px;
+}
+.cor, .tamanho, .formato, .nome_memoria{
+    padding: 10px 30px;
+    width: 100%;
+    height: 100%;
+}
+.cores{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 40%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    opacity: 0.5;
+}
+.cor1, .cor2, .cor3, .cor4, .cor5{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.cor1{
+    background-color: pink;
+}
+.cor2{
+    background-color: red;
+}
+.cor3{
+    background-color: blue;
+}
+.cor4{
+    background-color: green;
+}
+.cor5{
+    background-color: yellow;
+}
+
+.tamanhos div{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tamanhos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.formatos div{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color: rgba(29, 151, 145, 0.678);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formatos h1{
+    font-size: 15px;
+    font-weight: 400;
+}
+.formatos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.nome_memoria_texto{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px 30px;
+}
+.nome_memoria_texto input{
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    text-align: center;
+}
